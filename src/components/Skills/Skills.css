@@ -1,0 +1,17 @@
+.skills-title {
+  color: #a552ce;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-list {
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
