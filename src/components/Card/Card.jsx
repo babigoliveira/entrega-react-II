@@ -1,10 +1,12 @@
 import "./Card.css";
 
-function Card({ title, image, children }) {
+function Card({ title, image, anchor, children }) {
   return (
     <div className="card">
       <h3 className="card-title">{title}</h3>
-      <img className="card-image" src={image} />
+      <a href={anchor} target="_blank">
+        <img className="card-image" src={image} />
+      </a>
       <p className="card-text">{children}</p>
     </div>
   );
