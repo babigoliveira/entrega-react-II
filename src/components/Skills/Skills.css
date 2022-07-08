@@ -4,11 +4,14 @@
   font-size: 2rem;
 }
 
+.main {
+  margin: 5%;
+}
 .card-list {
-  margin: 1rem 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   background-color: #a552ce;
   border: 3px solid #5c1e7c;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 769px) {
