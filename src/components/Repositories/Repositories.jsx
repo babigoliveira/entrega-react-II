@@ -23,9 +23,9 @@ function Repositories() {
 
   return (
     <>
-      <h2>Outros projetos do meu GitHub:</h2>
-      <div className="card-container">
-        <div className="repository-card">
+      <h2 className="cards-title">Outros projetos do meu GitHub:</h2>
+      <div className="main">
+        <div className="repository-container">
           {repositories.map((repo) => (
             <RepositoryCard key={repo.id} repo={repo} />
           ))}
