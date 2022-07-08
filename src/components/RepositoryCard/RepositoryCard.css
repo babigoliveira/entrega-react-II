@@ -1,6 +1,7 @@
 .repository-card {
   background: #5c1e7c;
-  max-width: 350px;
+  width: 350px;
+  height: 100px;
   border: 3px solid #a552ce;
   border-radius: 10px;
   text-align: center;
@@ -11,13 +12,5 @@
 .repositoryCard-title {
   padding-top: 1rem;
   font-size: 1.2em;
-}
-
-.repositoryCard-text {
-  padding: 0.5rem;
-  font-size: 0.8rem;
-}
-
-.repositoryCard-icon {
-  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }

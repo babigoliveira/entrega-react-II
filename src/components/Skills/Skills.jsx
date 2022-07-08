@@ -1,50 +1,49 @@
-import gitImage from "../../img/git.png";
-import htmlImage from "../../img/html-5.png";
-import cssImage from "../../img/css-3.png";
-import javascriptImage from "../../img/script-java.png";
+import jtmk from "../../img/jtmk.png";
+import maravilhosa from "../../img/maravilhosa.png";
+import seriesPopulares from "../../img/seriesPopulares.png";
+import filmesGhibli from "../../img/filmesGhibli.png";
+import digimons from "../../img/digimons.png";
+import diarioReprograma from "../../img/diarioReprograma.png";
 import Card from "../Card/Card";
 import "./Skills.css";
 
 function Skills() {
   return (
     <>
-      <h2 className="skills-title">4 projetos feitos na reprograma</h2>
+      <h2 className="skills-title">
+        Alguns projetos feitos durante a reprograma
+      </h2>
       <div className="card-list">
-        <Card title="Git:" image={gitImage}>
-          O Git é um sistema para controlar versão de códigos e é usado pela
-          grande maioria das pessoas desenvolvedoras atualmente. Isso significa
-          dizer que usando o git a gente pode esquecer o medo de perder alguma
-          alteração que a gente fez no nosso código. Ou se a gente precisar
-          trabalhar em equipe fica super fácil de identificar quem mexeu em cada
-          linha de código ou como resolver conflitos se as pessoas mexerem nas
-          mesmas linha
+        <Card title="JT Marketing Digital" image={jtmk}>
+          Foi o meu primeiro projeto feito na reprograma, onde aprendi HTNL, CSS
+          e responsividade.
         </Card>
-        <Card title="HTML:" image={htmlImage}>
-          HTML é uma abreviação de Hyper Text Markup Language (linguagem de
-          marcação em hipertexto). Ou seja, não se trata de uma linguagem de
-          programação, pois não tem lógica (algoritmos, processos etc). Ele cria
-          a estrutura de uma página ou aplicação web, determinando a separação
-          de layout e conteúdo
+        <Card title="M de Maravilhosa" image={maravilhosa}>
+          Desafio elaborado pela reprograma, em que poderiamos escolher a nossa
+          Maravilhosa, sendo ela, uma icone brasileira. Onde pude treinar mais o
+          HTML,CSS,responsividade e o mobile first.
         </Card>
-        <Card title="CSS:" image={cssImage}>
-          CSS é abreviação de Cascading Style Sheet (folha de estilos em
-          cascata). É a linguagem que define estilos para o HTML, portanto, não
-          se trata de linguagem de programação. CSS tem 'cascata' no nome,
-          devido a sua forma de determinar a propriedade de um elemento -
-          levando em consideração hierarquia de seletores e de chamadas de
-          estilo (inline, internal e external). Para fazer o link de um arquivo
-          .css em um documento .html, devemos inserir a tag no do documento, com
-          o href do caminho do arquivo.
+        <Card title="Series mais populares" image={seriesPopulares}>
+          Foi minha primeira utilização de uma API e consumindo pelo fetch,
+          mostrando em cards como catálogo de séries e filmes. Utilizei o
+          Boostrap para fazer um carrossel que deu mais dinamismo na página, me
+          desfiando com mais uma ferramenta que não havia usado anteriormente.
         </Card>
-        <Card title="JavaScript:" image={javascriptImage}>
-          Segundo o livro "Estrutura de dados e algoritmos com javascript", de
-          Loiane Groner: "Javascript é uma das linguagens de programação mais
-          populares atualmente, é conhecida como a linguagem da internet porque
-          os navegadores a entendem de modo nativo, sem a instalação de qualquer
-          plugin." Praticamente todos os sites e aplicações web usam javascript,
-          até outras ferramentas que são usadas para web, no fim das contas vão
-          precisar transformar o código em javascript para que o navegador
-          entenda.
+        <Card title="Filmes Ghibli" image={filmesGhibli}>
+          Utilizei uma api pública e solicitei que retonasse um catálogo de
+          todos os filmes e alguns dados deles como uma galeria de filmes para
+          treinar meus conhecimentos de fetch e css.
+        </Card>
+        <Card title="Digimons" image={digimons}>
+          Foi utilizado uma chamada através do axios de uma API publica e
+          solicitei que o usuário fizesse a busca de todos os digimonse por nome
+          ou por nivel, gerando novos resultados aos continuar pesquisando.
+        </Card>
+        <Card title="Meu diário da reprograma" image={diarioReprograma}>
+          Foi meu primeiro projeto em react. Nele utilizei um pouco de
+          componentes, props e children. Contei um pouco sobre como foi os
+          aprendizados que obtive fazendo o reprograma e o que seria cada uma
+          das ferramentas que me foram disponibilizadas.
         </Card>
       </div>
     </>

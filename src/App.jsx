@@ -10,6 +10,7 @@ function App() {
     <>
       <Header />
       <About />
+      <Skills />
       <Repositories />
       <Footer />
     </>

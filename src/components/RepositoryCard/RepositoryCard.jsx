@@ -7,7 +7,6 @@ function RepositoryCard({ repo }) {
   return (
     <div className="repository-card">
       <h3 className="repositoryCard-title">{repo.name}</h3>
-      <p className="repositoryCard-text">{repo.description}</p>
       <a href={repo.html_url} target="_blank" className="repositoryCard-icon">
         <img src={arrow} />
       </a>

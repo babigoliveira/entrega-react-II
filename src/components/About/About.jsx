@@ -16,7 +16,7 @@ function About() {
           <h2>Prazer, Bárbara</h2>
           <p>
             Aluna da Reprograma, fazendo migração de carreira após meus 27 anos
-            e vindo da área da educação. Esudando para me tornar uma
+            e vindo da área da educação. Estudando para me tornar uma
             Desenvolvedora Front-End.
           </p>
         </div>
